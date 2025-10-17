@@ -76,7 +76,8 @@ int main() {
   resultValue = *ptr;
   glUnmapBuffer(GL_SHADER_STORAGE_BUFFER);
 
-  std::cout << "\n\n\nAddition Result: " << resultValue << "\n\n\n"
+  std::cout << "\n\n\n1st Number = " << aValue << "\n2nd Number = " << bValue
+            << "\nAddition Result: " << resultValue << "\n\n\n"
             << std::endl;
 
   glDeleteBuffers(3, ssbo);
